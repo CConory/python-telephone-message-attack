@@ -1,0 +1,22 @@
+[INFO  - 2019-04-10T13:03:56.930Z] GhostDriver - Main - running on port 55855
+[INFO  - 2019-04-10T13:03:57.743Z] Session [1a139fb0-5b91-11e9-adde-23ec380229f9] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Macintosh; Intel Mac OS X) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2019-04-10T13:03:57.743Z] Session [1a139fb0-5b91-11e9-adde-23ec380229f9] - page.customHeaders:  - {}
+[INFO  - 2019-04-10T13:03:57.743Z] Session [1a139fb0-5b91-11e9-adde-23ec380229f9] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"mac-unknown-64bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2019-04-10T13:03:57.743Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 1a139fb0-5b91-11e9-adde-23ec380229f9
+[ERROR - 2019-04-10T13:04:04.996Z] Session [1a139fb0-5b91-11e9-adde-23ec380229f9] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 't.href.includes("javascript")')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-04-10T13:04:04.996Z] Session [1a139fb0-5b91-11e9-adde-23ec380229f9] - page.onError - stack:
+  (anonymous function) (https://cli-sta.guazistatic.com/c2c_web/base.6fe56c7c8e45d3ef95b9.js:8)
+  dispatchEvent (:0)
+  U (:119)
+  $ (:108)
+  $ (:101)
+  bh (:138)
+  gh (:140)
+  sh (:152)
+  (anonymous function) (:152)
+  (anonymous function) (:152)
+  (anonymous function) (:153)
+
+  phantomjs://platform/console++.js:263 in error
